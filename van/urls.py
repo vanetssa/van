@@ -1,5 +1,5 @@
 from django.conf.urls import patterns, include, url
-from van.views import index
+from van.views import index,pull
 
 urlpatterns = patterns('',
     # Examples:
@@ -7,5 +7,6 @@ urlpatterns = patterns('',
     # url(r'^blog/', include('blog.urls')),
 
     #url(r'^admin/', include(admin.site.urls)),
-	url(r'^$',index)
+	url(r'^$',index),
+	url(r'^pull$',pull)
 )
