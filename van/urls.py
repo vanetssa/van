@@ -1,6 +1,7 @@
 from django.conf.urls.defaults import patterns, url
 from van.views import index,pull
 
+
 urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'van.views.home', name='home'),
