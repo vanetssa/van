@@ -5,3 +5,6 @@ def index(request):
 
 def blog(reques):
 	return HttpResponse("blog page")
+
+def community(reques):
+	return HttpResponse("community page")
