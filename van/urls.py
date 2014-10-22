@@ -1,5 +1,5 @@
 from django.conf.urls import patterns,url
-from van.views import index,study,blog,community
+from van.views import index,study,blog, community
 
 urlpatterns = patterns('',
     # url(r'^$', 'van.views.home', name='home'),
