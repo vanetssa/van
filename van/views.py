@@ -2,7 +2,7 @@
 from django.http import HttpResponse
 
 def index(request):
-	return HttpResponse(u"김상은")
+	return HttpResponse("장도우와 황서정은 나쁩니다.")
 
 def study(reques):
 	return HttpResponse("study page")
